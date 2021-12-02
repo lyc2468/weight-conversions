@@ -1,7 +1,7 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace Skies\WeightConversions;
 
-class SkeletonClass
+class WeightConversionsClass
 {
 }

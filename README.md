@@ -1,8 +1,8 @@
-# :package_description
+# Weight conversions in PHP
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/:vendor_slug/:package_slug.svg?style=flat-square)](https://packagist.org/packages/:vendor_slug/:package_slug)
-[![Tests](https://github.com/:vendor_slug/:package_slug/actions/workflows/run-tests.yml/badge.svg?branch=main)](https://github.com/:vendor_slug/:package_slug/actions/workflows/run-tests.yml)
-[![Total Downloads](https://img.shields.io/packagist/dt/:vendor_slug/:package_slug.svg?style=flat-square)](https://packagist.org/packages/:vendor_slug/:package_slug)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/lyc2468/weight-conversions.svg?style=flat-square)](https://packagist.org/packages/lyc2468/weight-conversions)
+[![Tests](https://github.com/lyc2468/weight-conversions/actions/workflows/run-tests.yml/badge.svg?branch=main)](https://github.com/lyc2468/weight-conversions/actions/workflows/run-tests.yml)
+[![Total Downloads](https://img.shields.io/packagist/dt/lyc2468/weight-conversions.svg?style=flat-square)](https://packagist.org/packages/lyc2468/weight-conversions)
 
 ---
 This package can be used as to scaffold a framework agnostic package. Follow these steps to get started:
@@ -21,14 +21,14 @@ This is where your description should go. Try and limit it to a paragraph or two
 You can install the package via composer:
 
 ```bash
-composer require :vendor_slug/:package_slug
+composer require lyc2468/weight-conversions
 ```
 
 ## Usage
 
 ```php
-$skeleton = new VendorName\Skeleton();
-echo $skeleton->echoPhrase('Hello, VendorName!');
+$skeleton = new Skies\WeightConversions();
+echo $skeleton->echoPhrase('Hello, Skies!');
 ```
 
 ## Testing
@@ -51,7 +51,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
-- [:author_name](https://github.com/:author_username)
+- [Skies](https://github.com/lyc2468)
 - [All Contributors](../../contributors)
 
 ## License
